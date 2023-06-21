@@ -262,6 +262,7 @@ h2 {
     opacity:0.8;
     scale:1.01;
     font-size:40.4px;
+    cursor:pointer;
 }
 .divider6 {
     height:50px;
