@@ -1,0 +1,156 @@
+﻿<html>
+
+<head>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>OFFICIAL</title>
+
+    <link rel="icon" href="thumbsup2.jpg" />
+
+</head>
+
+<body>
+
+    <h1>The OFFICIAL Website</h1>
+
+    <p class="divider"></p>
+
+    <img class="i1" src="thumbsup.jpg" alt="👍" />
+
+    <img class="i2" src="thumbsup2.jpg" alt="👍" />
+
+    <audio loop src="h.mp3" type="audio/mp3">
+
+        <script>
+
+            // credits to four h.mp3, h compress it
+
+            // this code is bad but i use it because h
+
+            // it's kermit real c:
+
+            // bro this code is like so fire 4
+
+            //                     .---.       .---.
+            //                    (-o - )-- - (-o - )
+            //                    ; -...-`   ` -...-;
+            //                    /                 \
+            //                   /                   \
+            //                  | /_               _\ |
+            //                  \`'.`'"--.....--"'`.'`/
+            //                   \  '.   `._.`   .'  /
+            //                _.- ''.  `-.,,_,,.-`.'' -._
+            //               `--._  `'-.,_____,.-'`  _.--`
+            //                    /                 \
+            //                   /.-'`\   .'.   /`'-.\
+            //                  `      '.'   '.'
+
+            // button and Id
+            var button = document.createElement('button')
+            button.id = 'sndBtn'
+            button.innerHTML = '<i class="fa fa-volume-off"></i>'
+            button.className = "sndBtn"
+
+            // audio
+            const audio = document.querySelector("audio")
+
+            // "sndBtn" plays and pauses Audio
+            button.addEventListener('click', () => {
+                if (audio.paused / audio.ended) {
+                    audio.play()
+                    button.innerHTML = '<i class="fa fa-volume-up"></i>'
+                    audio.volume = 0.35
+                } else {
+                    audio.pause()
+                    button.innerHTML = '<i class="fa fa-volume-off"></i>'
+                }
+            })
+            // if audio ends without button pressed, replace button's icon
+            audio.addEventListener('ended', () => {
+                if (audio.ended) {
+                    button.innerHTML = '<i class="fa fa-volume-off"></i>'
+                }
+            })
+
+                , document.body.appendChild(button)
+        </script>
+
+    </audio>
+
+    <p class="divider2"></p>
+
+    <p class="p1">Email Bill Nye! Tell him you love him!</p>
+
+    <p class="divider3"></p>
+
+    <a href="mail.html" class="emailLink">Bill Nye's Email</a>
+
+    <img src="chip.gif" alt="chip" class="chip" />
+
+    <p class="p2"><b>LOOK! OMG! THERE IS MORE ↓ </b></p>
+
+    <div class="soundcloud">
+
+        <p>Check Out li'l granpa's soundcloud!</p>
+
+        <p style="opacity:0.3;animation:flicker 3s infinite linear;"><i>tell him you love him.</i></p>
+
+        <a href="https://soundcloud.com/user-828365930-899582735/grandpa-is-going" style=" text-decoration: none;color:blue;border-bottom:3px solid blue;">li'l granpa's soundcloud (<b>OFFICIAL</b>)</a>
+
+    </div>
+
+    <img src="h.gif" alt="H" class="h" />
+
+    <img src="GRANDPA.jpg" alt="lil granpa official" class="h2" />
+
+    <p class="Hreal"><b>3</b></p>
+
+    <p class="divider4"></p>
+
+    <div class="container">
+        <h2>Wow, you scrolled 3</h2>
+    </div>
+
+    <p class="divider5"></p>
+
+    <p class="p3">Wow, that was such a moment. <b>Truck.</b></p>
+
+    <img src="truck.gif" alt="POV: truck" class="truck" />
+
+    <p class="divider6"></p>
+
+    <a href="giveH.bat" download style="text-decoration:none;">
+        <button class="rip" id="btn">
+            press to give h (real!)
+
+            <script>
+
+                var btn = document.getElementById('btn')
+
+                btn.addEventListener("click", () => {
+
+                    btn.innerHTML = "ok now run the file and you will get h 👍"
+
+                })
+
+            </script>
+        </button>
+    </a>
+
+    <img class="i4" src="thumbsup.jpg" alt="👍" />
+
+    <img class="i3" src="IMG_1823.png" alt="👍" />
+
+
+    <p class="spacing"></p>
+
+    <div class="container2">
+        <h3>Wow, you went for like 4!</h3>
+    </div>
+
+</body>
+
+</html>

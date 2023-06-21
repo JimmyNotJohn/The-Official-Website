@@ -1,0 +1,39 @@
+
+.sounds {
+    margin:auto;
+    width:20%;
+    padding:100px;
+}
+.bill {
+    position:absolute;
+    width:30%;
+    bottom:1px;
+}
+.real {
+    text-align: center;
+    margin:0px;
+    font-family: 'Comic Sans MS';
+    font-size: 250px;
+    background-image: linear-gradient(cyan, white)
+}
+.confused {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+.realest {  
+	display: block;  
+	margin-left: auto;  
+	margin-right: auto;  
+	border: 8px ridge blue;  
+	padding: 5px;  
+}  
+.real-h2 {
+    text-align: center;
+    margin:0px;
+    font-family: 'Comic Sans MS';
+    font-size: 50px;
+}
+body {
+    margin:0px;
+}
